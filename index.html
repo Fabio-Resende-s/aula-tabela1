@@ -1,33 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula tabela</title>
+  <meta charset="UTF-8">
+  <title>Revista de Ofertas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f8f8;
+    }
+
+    header {
+      background-color: #d10000;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .produto {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .foto {
+      width: 80px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .produto h2 {
+      font-size: 1.2rem;
+      margin: 10px 0 5px;
+    }
+
+    .preco {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #d10000;
+    }
+
+    .descricao {
+      font-size: 0.9rem;
+      color: #444;
+      margin: 5px 0 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <th>Roupa</th>
-            <th>Cor</th>
-            <th>Tamanho</th>
-            <th>Preço</th>
-            <th>Disponibilidade</th>
-        </tr>
-        <tr>
-            <td>Camisa de manga</td>
-            <td>vermelha</td>
-            <td>M</td>
-            <td>R$ 90,00</td>
-            <td>sem estoque</td>
-        </tr>
-        <tr>
-            <td>calças dins</td>
-            <td>Vermelho</td>
-            <td>M</td>
-            <td>R$ 200,00</td>
-            <td>Esgotado</td>
-        </tr>
-    </table>
+
+  <header>
+    <h1>Revista de Ofertas - SUPER MERCADO</h1>
+    <p>Promoções válidas até 15/05</p>
+  </header>
+
+  <section class="catalogo">
+    <div class="produto">
+      <img class="foto" src="./D_NQ_NP_975445-MLB71603612099_092023-O.webp" alt="Produto cafe1">
+      <h2>Café Tradicional Marata 500g</h2>
+      <div class="preco">R$ 12,90</div>
+      <div class="descricao">Café moído, sabor intenso, direto da fazenda.</div>
+    </div>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/250x180?text=Produto+2" alt="Produto 2">
+      <h2>Arroz Tipo 1 5kg</h2>
+      <div class="preco">R$ 22,50</div>
+      <div class="descricao">Grãos selecionados, ótimo rendimento.</div>
+    </div>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/250x180?text=Produto+3" alt="Produto 3">
+      <h2>Sabão em Pó 1kg</h2>
+      <div class="preco">R$ 8,99</div>
+      <div class="descricao">Limpeza profunda e perfume duradouro.</div>
+    </div>
+
+     <div class="produto">
+      <img src="https://via.placeholder.com/250x180?text=Produto+3" alt="Produto 3">
+      <h2>Sabão em Pó 1kg</h2>
+      <div class="preco">R$ 8,99</div>
+      <div class="descricao">Limpeza profunda e perfume duradouro.</div>
+    </div>
+
+     <div class="produto">
+      <img src="https://via.placeholder.com/250x180?text=Produto+3" alt="Produto 3">
+      <h2>Sabão em Pó 1kg</h2>
+      <div class="preco">R$ 8,99</div>
+      <div class="descricao">Limpeza profunda e perfume duradouro.</div>
+    </div>
+
+     <div class="produto">
+      <img src="https://via.placeholder.com/250x180?text=Produto+3" alt="Produto 3">
+      <h2>Sabão em Pó 1kg</h2>
+      <div class="preco">R$ 8,99</div>
+      <div class="descricao">Limpeza profunda e perfume duradouro.</div>
+    </div>
+
+     <div class="produto">
+      <img src="https://via.placeholder.com/250x180?text=Produto+3" alt="Produto 3">
+      <h2>Sabão em Pó 1kg</h2>
+      <div class="preco">R$ 8,99</div>
+      <div class="descricao">Limpeza profunda e perfume duradouro.</div>
+    </div>
+
+     <div class="produto">
+      <img src="https://via.placeholder.com/250x180?text=Produto+3" alt="Produto 3">
+      <h2>Sabão em Pó 1kg</h2>
+      <div class="preco">R$ 8,99</div>
+      <div class="descricao">Limpeza profunda e perfume duradouro.</div>
+    </div>
+
+     <div class="produto">
+      <img src="https://via.placeholder.com/250x180?text=Produto+3" alt="Produto 3">
+      <h2>Sabão em Pó 1kg</h2>
+      <div class="preco">R$ 8,99</div>
+      <div class="descricao">Limpeza profunda e perfume duradouro.</div>
+    </div>
+
+     <div class="produto">
+      <img src="https://via.placeholder.com/250x180?text=Produto+3" alt="Produto 3">
+      <h2>Sabão em Pó 1kg</h2>
+      <div class="preco">R$ 8,99</div>
+      <div class="descricao">Limpeza profunda e perfume duradouro.</div>
+    </div>
+
+    <!-- Adicione mais produtos aqui -->
+  </section>
+
+  <footer>
+    Supermercado ARA - Rua Central, 123 - Contato: (11) 99999-0000
+  </footer>
+
 </body>
 </html>
